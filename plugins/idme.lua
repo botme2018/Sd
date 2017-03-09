@@ -10,8 +10,8 @@ return {
   description = "Info Group And User", 
   usage = "id: Information",
   patterns = {
-    "^id",
-    "^[#!/]id$"
+    "^idme",
+    "^[#!/]idme$"
     }, 
   run = run 
 }
