@@ -1,0 +1,20 @@
+﻿do
+function run(msg, matches)
+  return [[
+ 🔮 انلاینم گروه در حالت عادی است 🔮
+  ]]
+  end
+return {
+  description = "!buy", 
+  usage = " !buy",
+  patterns = {
+    "^[#/!][Bb]uy$",
+	"^انلاین بات$",
+	"^انلاینی$",
+	"^online$",
+	"^[#!/]online$",
+    "^[Bb]uy$"
+  },
+  run = run
+}
+end
